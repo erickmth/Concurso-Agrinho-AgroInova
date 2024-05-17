@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fórum Simples</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
+    import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAZ7vI3ZLwqccalaQfVvPrNP6xftDn3WsA",
+      authDomain: "forum-95d1e.firebaseapp.com",
+      projectId: "forum-95d1e",
+      storageBucket: "forum-95d1e.appspot.com",
+      messagingSenderId: "1073286928968",
+      appId: "1:1073286928968:web:fdc7456df136cbd355567d",
+      measurementId: "G-JWK3B74E1M"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const db = getFirestore(app);
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Fórum Simples</h1>
+
+    <h2>Tópicos</h2>
+    <ul id="topics-list"></ul>
+
+    <h2>Criar Novo Tópico</h2>
+    <form id="new-topic-form">
+      <div class="form-group">
+        <label for="topic-author">Nome:</label>
+        <input type="text" class="form-control" id="topic-author" required>
+      </div>
+      <div class="form-group">
+        <label for="topic-title">Título:</label>
+        <input type="text" class="form-control" id="topic-title" required>
+      </div>
+      <div class="form-group">
+        <label for="topic-content">Conteúdo:</label>
+        <textarea class="form-control" id="topic-content" rows="8" required></textarea>
+      </div>
+      <button type="submit" class="btn">Criar Tópico</button>
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
