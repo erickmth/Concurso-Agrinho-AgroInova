@@ -3,7 +3,7 @@
 
 ![2 -scaled](https://github.com/erickmth/agrinhoedithe-2024/assets/160558291/ef0d8a01-a9cc-4b25-9cd1-fc5f1ab5cae2)
 
-Este repositório contém o código fonte do site Agrinho, desenvolvido por Erick Matheus, estudante do segundo ano do Ensino Médio da **Escola Estadual Professora Edithe**, em Campo Largo. O site é uma plataforma dedicada a estreitar os laços entre o campo e a cidade, explorando as oportunidades e sinergias que existem entre esses dois ambientes. Acreditamos que a colaboração entre o rural e o urbano é essencial para um desenvolvimento sustentável e próspero.
+Este repositório contém o código fonte do site Agrinho, desenvolvido por Erick Matheus, estudante do segundo ano do Ensino Médio da **Escola Estadual Professora Edithe**, em Campo Largo. O site é uma plataforma dedicada a conectar os laços entre o campo e a cidade, explorando as oportunidades e sinergias que existem entre esses dois ambientes. Acreditamos que a colaboração entre o rural e o urbano é essencial para um desenvolvimento sustentável e próspero.
 
 Explore o site e descubra:
 - **Página Inicial:** Uma introdução visualmente atraente ao tema, com imagens de campos e cidades que evocam a união entre esses dois mundos. Uma breve descrição do objetivo do site e dos seus pilares de ação.
