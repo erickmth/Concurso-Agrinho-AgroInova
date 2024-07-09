@@ -36,5 +36,5 @@ Para mais informações ou para entrar em contato, visite a seção "Sobre" no s
 
 **Nota:** Este site é parte do projeto apresentado para o concurso Agrinho 2024, e todos os conteúdos e informações aqui presentes foram criados com o objetivo de promover o tema do concurso e a conscientização sobre a importância da integração entre campo e cidade através da sustentabilidade e inovação tecnológica.
 
-### Visualização
+
 ![Visualização](https://drive.google.com/uc?export=view&id=1R6-NOyGScw8r0yGU32ZHcl2WgPtUBZqZ)
