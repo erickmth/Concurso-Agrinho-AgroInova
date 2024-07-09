@@ -1,20 +1,37 @@
+# README - AgroInova
 
-**Bem-vindo ao “Do Campo à Cidade: Colhendo Oportunidades”**
+## Concurso Agrinho 2024
+**Tema: Do campo à cidade colhendo oportunidades**
 
-![2 -scaled](https://github.com/erickmth/agrinhoedithe-2024/assets/160558291/ef0d8a01-a9cc-4b25-9cd1-fc5f1ab5cae2)
+### Sobre o Projeto
+O site AgroInova foi desenvolvido para o concurso Agrinho 2024, com o objetivo de explorar e destacar as oportunidades que surgem na integração entre o campo e a cidade, focando em sustentabilidade e inovação tecnológica. 
 
-Este repositório contém o código fonte do site Agrinho, desenvolvido por Erick Matheus, estudante do segundo ano do Ensino Médio da **Escola Estadual Professora Edithe**, em Campo Largo. O site é uma plataforma dedicada a conectar os laços entre o campo e a cidade, explorando as oportunidades e sinergias que existem entre esses dois ambientes. Acreditamos que a colaboração entre o rural e o urbano é essencial para um desenvolvimento sustentável e próspero.
+### Estrutura do Site
 
-Explore o site e descubra:
-- **Página Inicial:** Uma introdução visualmente atraente ao tema, com imagens de campos e cidades que evocam a união entre esses dois mundos. Uma breve descrição do objetivo do site e dos seus pilares de ação.
+#### Início
+A página inicial apresenta uma visão geral das oportunidades que emergem da relação entre o campo e a cidade. Aqui, discutimos como essa integração pode gerar benefícios econômicos, sociais e ambientais, promovendo um desenvolvimento mais sustentável e equilibrado.
 
-- **Histórias de Sucesso:** Conheça pessoas e empresas que estão construindo pontes entre o campo e a cidade, impulsionando o crescimento e a inovação. Agricultores que expandiram seus negócios para a cidade, empresas urbanas que se beneficiaram de parcerias rurais, e outros exemplos de sucesso.
-  
-- **Educação e Informação:** Explore dados, estatísticas e artigos que revelam a importância da interação entre os setores rural e urbano. Descubra as vantagens da integração e como ela contribui para a prosperidade de ambos os ambientes.
-- **Diretório de Recursos:** Encontre organizações, programas, oportunidades de financiamento e outros recursos relevantes para conectar o campo e a cidade. Links para iniciativas que apoiam a integração rural-urbana, facilitando a conexão entre aqueles que buscam oportunidades ou desejam contribuir.
-  
-**Contribua para construir um futuro mais próspero e sustentável para todos!**
+#### Sustentabilidade
+Nesta seção, exploramos o conceito de sustentabilidade, enfatizando a importância da tecnologia para a agricultura e as práticas urbanas. Abordamos como métodos sustentáveis podem ser implementados para conservar recursos, reduzir impactos ambientais e promover uma produção agrícola mais eficiente e ecológica.
 
- ![d9d8116b421f75a1e4a0cd7417cf5654](https://github.com/erickmth/agrinhoedithe-2024/assets/160558291/df79938b-923e-42f9-b8e8-0540d1551368)
+#### Inovação
+A página de inovação é dedicada às técnicas inovadoras de sustentabilidade que utilizam tecnologia de ponta. Aqui, apresentamos exemplos práticos de como a tecnologia pode transformar a agricultura, desde o uso de drones para monitoramento de culturas até a implementação de sistemas de irrigação inteligente e outras ferramentas avançadas que aumentam a produtividade e reduzem o desperdício.
 
-_**© 2024 Erick Matheus - Agrinho 2024**_
+#### Sobre
+Nesta seção, você encontrará informações sobre o criador do site, Erick Matheus, incluindo detalhes de contato e uma breve biografia. Esta página é destinada a fornecer uma conexão pessoal com os visitantes, destacando a motivação e o comprometimento com o tema do concurso.
+
+### Tecnologias Utilizadas
+- **HTML/CSS:** Para a estrutura e estilo das páginas.
+- **JavaScript:** Para funcionalidades interativas e dinâmicas.
+- **Imagens geradas por IA (Microsoft Copilot):** Imagens criadas pelo modelo de inteligência artificial Microsoft Copilot.
+- **Imagens vetorizadas autorais:** Todas as imagens vetorizadas utilizadas no site são de criação própria.
+- **Fontes:** As fontes utilizadas neste site são provenientes do Google Fonts.
+- **Síntese de fala:** O recurso de síntese de fala é fornecido pela Eleven Labs.
+- **Código autoral:** Todos os códigos presentes neste site são de autoria própria. Qualquer forma de plágio, remasterização ou uso não autorizado será tratado com rigor.
+
+### Contato
+Para mais informações ou para entrar em contato, visite a seção "Sobre" no site.
+
+---
+
+**Nota:** Este site é parte do projeto apresentado para o concurso Agrinho 2024, e todos os conteúdos e informações aqui presentes foram criados com o objetivo de promover o tema do concurso e a conscientização sobre a importância da integração entre campo e cidade através da sustentabilidade e inovação tecnológica.
