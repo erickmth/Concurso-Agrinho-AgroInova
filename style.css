@@ -9,13 +9,14 @@
 
 body {
     background-color: rgb(80, 162, 255);
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
 }
 
 .header, .footer {
     position: fixed;
     width: 100%;
     background-color: rgb(80, 162, 255);
-    padding: 10px 0;
+    padding: 1px 0;
     z-index: 1000;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
@@ -31,7 +32,6 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s;
     transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; 
 }
 
@@ -55,19 +55,6 @@ body {
 
 .logo img {
     width: 200px;
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
 
 .drone-image {
@@ -92,6 +79,14 @@ body {
     font-size: 1.5em;
 }
 
+.conteudo h2 {
+    font-size: 1.5em;
+}
+
+.conteudo ul li {
+    font-size: 1.5em;
+}
+
 section.ondas-box {
     position: relative;
     width: 100%;
@@ -105,7 +100,7 @@ section.ondas-box {
     bottom: 0;
     background-image: url(img/wave.png);
     background-size: 1000px 100px;
-    animation: ondaAnimada 7s ease-in-out infinite alternate;
+    animation: ondaAnimada 5s ease-in-out infinite alternate;
 }
 
 @keyframes ondaAnimada {
@@ -148,6 +143,242 @@ section.ondas-box {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     color: #ffffff;
-    position: relative; /* Adiciona um posicionamento relativo para o rodapé */
-    margin-top: 0px; /* Adiciona uma margem superior para espaçamento */
+    position: relative;
+    margin-top: 0px;
+}
+
+.img-ft {
+    width: 100px;
+}
+
+.colheitadeira {
+    width: 250px; 
+    height: auto; 
+    animation: colheitadeiraAnimacao .5s ease-in-out infinite; /* Adicione a animação */
+}
+
+/* Adicione a classe para a seção da colheitadeira */
+.colheitadeira-section {
+    position: relative;
+    top: 385px; /* Ajustado para 392px */
+    left: -35px; /* Ajustado para -35px */
+}
+
+.colheitadeira-image {
+    position: absolute;
+}
+
+/* Adicione um novo keyframe para o efeito de "subida" */
+@keyframes colheitadeiraAnimacao {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); /* Mova para cima 5px */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos horizontalmente */
+    align-items: center; /* Alinha verticalmente os itens no cabeçalho */
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    background-color: rgb(80, 162, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo .logo-img {
+    width: 80px; /* Ajuste o tamanho da imagem do logo */
+    height: auto;
+}
+
+.header nav {
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+    text-align: center; /* Centraliza os itens do menu */
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os itens do menu */
+    gap: 20px;
+}
+
+.header nav ul li {
+    margin: 0 10px; /* Espaçamento entre os itens do menu */
+}
+
+.header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+#audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center; /* Alinha o texto centralmente */
+}
+
+#audio-player p {
+    margin: 0 10px; /* Espaço entre o texto e o player */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adicionando os Media queries*/
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 10px 10px; /* Ajuste para telas menores */
+    }
+
+    .conteudo {
+        padding: 100px 10px; /* Ajuste conforme necessário */
+    }
+
+    .conteudo h1 {
+        font-size: 2em; /* Ajuste para telas menores */
+    }
+
+    .conteudo p, .conteudo h2, .conteudo ul li {
+        font-size: 1em; /* Ajuste para telas menores */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo {
+        padding: 80px 10px; /* Ajuste conforme necessário para dispositivos menores */
+    }
+
+    .conteudo h1 {
+        font-size: 1.5em; /* Ajuste para dispositivos menores */
+    }
+
+    .conteudo p, .conteudo h2, .conteudo ul li {
+        font-size: 0.9em; /* Ajuste para dispositivos menores */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 10px 10px;
+    }
+
+    .conteudo {
+        padding: 120px 10px;
+    }
+
+    .conteudo h1 {
+        font-size: 2em;
+    }
+
+    .conteudo p, .conteudo h2, .conteudo ul li {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .conteudo {
+        padding: 100px 10px;
+    }
+
+    .conteudo h1 {
+        font-size: 1.8em;
+    }
+
+    .conteudo p, .conteudo h2, .conteudo ul li {
+        font-size: 0.9em;
+    }
+
+    .colheitadeira {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo {
+        padding: 80px 10px;
+    }
+
+    .conteudo h1 {
+        font-size: 1.5em;
+    }
+
+    .conteudo p, .conteudo h2, .conteudo ul li {
+        font-size: 0.8em;
+    }
+
+    .colheitadeira {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .conteudo {
+        padding: 60px 10px;
+    }
+
+    .conteudo h1 {
+        font-size: 1.2em;
+    }
+
+    .conteudo p, .conteudo h2, .conteudo ul li {
+        font-size: 0.7em;
+    }
+
+    .colheitadeira {
+        width: 120px;
+    }
+
+    .drone-image {
+        margin-bottom: 10px;
+    }
 }

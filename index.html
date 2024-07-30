@@ -7,22 +7,33 @@
 </head>
 <body>
     <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
+            </a>
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
+            <ul class="menudesk">
+                <li><a href="index.html"><b><u>Início </u></b></a></li>
                 <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                <li><a href="inovacao.html">Inovação</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <section class="ondas-box" id="inicio">
         <div class="titulo">
-            <h1>Agrinho 2024</h1>
+            <h1>Agro<u>Inova</u></h1> 
             <div class="logo">
                 <img src="img/logo.png" alt="logo agrinho - Erick">
             </div>
         </div><!--titulo-->
+        <section class="colheitadeira-section">
+            <div class="colheitadeira-image">
+              <img src="img/colheitadeira.png" alt="Colheitadeira" class="colheitadeira"></a>
+            </div>
+        </section>
         
         <div class="onda" id="onda1"></div>
         <div class="onda" id="onda2"></div>
@@ -31,19 +42,43 @@
     </section>
 
     <section class="conteudo">
+        <div id="audio-player">
+            <p>Acessibilidade - Síntese de fala:</p>
+            <audio controls>
+                <source src="audio/inicio.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
         <h1>Do campo à cidade, colhendo oportunidades</h1>
         <p>Bem-vindo ao nosso espaço dedicado à inovação, sustentabilidade e ao potencial transformador da tecnologia no campo. Aqui, exploramos como as oportunidades florescem onde a ruralidade encontra a urbanidade, criando um ecossistema de crescimento e prosperidade.</p><br><br>
         <div class="text-and-image">
-            <img src="img/drone.png" alt="Drone" class="drone-image">
+            <img src="img/drone.png" alt="Drone sobrevoando um campo" class="drone-image">
         </div>
         <p>Junte-se a nós nesta jornada de descoberta e aprendizado, onde o campo se transforma em laboratório e a cidade em parceira de inovação. Explore como estamos cultivando oportunidades, colhendo os frutos do progresso e pavimentando o caminho para um amanhã mais verde e conectado.</p><br><br>
-        <p>O campo não é apenas a origem dos alimentos que chegam às mesas das cidades; é também um motor econômico vital. A produção agrícola não só sustenta mercados locais e regionais, mas também alimenta cadeias produtivas que impulsionam a economia urbana. Investimentos em tecnologia agrícola não apenas aumentam a eficiência da produção, mas também criam novas oportunidades de emprego em áreas como engenharia agrícola, desenvolvimento de software e gestão de dados.</p><br><br>
-        <p>A correlação entre campo e cidade é fundamental para um desenvolvimento sustentável. Iniciativas que promovem a agricultura urbana, por exemplo, não só aumentam a disponibilidade de alimentos frescos nas cidades, mas também fortalecem a resiliência das comunidades urbanas frente a choques externos. Além disso, a troca de conhecimento e tecnologia entre o campo e a cidade é essencial para enfrentar desafios globais, como mudanças climáticas e segurança alimentar.</p><br><br>
+        <h2>Benefícios da Interação do Campo e Cidade:</h2>
+        <ul> 
+            <li><strong>Economia Circular:</strong> A produção agrícola alimenta cadeias produtivas que impulsionam a economia urbana, sustentando mercados locais e regionais.</li>
+            <li><strong>Inovação Tecnológica:</strong> Investimentos em tecnologia agrícola aumentam a eficiência da produção e criam novas oportunidades em áreas como engenharia agrícola, desenvolvimento de software e gestão de dados.</li>
+            <li><strong>Criação de Empregos:</strong> A interação do campo e cidade gera empregos diretos e indiretos em agricultura, logística, e comércio de alimentos, promovendo o crescimento econômico inclusivo.</li>
+            <li><strong>Sustentabilidade Urbana:</strong> Iniciativas como a agricultura urbana aumentam a disponibilidade de alimentos frescos, fortalecendo a resiliência das comunidades urbanas.</li>
+            <li><strong>Colaboração para Desafios Globais:</strong> Trocas de conhecimento e tecnologia entre campo e cidade são essenciais para enfrentar desafios como mudanças climáticas e segurança alimentar.</li>
+        </ul>
     </section>
-    
+    <!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
     <footer class="footer">
         <p>&copy; 2024 AgroInova</p>
+        <img class= "img-ft" src="/img/logo.png" alt="Logo-Rodapé">
     </footer>
 
     <script src="main.js"></script>

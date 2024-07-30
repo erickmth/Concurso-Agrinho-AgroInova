@@ -47,6 +47,7 @@ body {
 .conteudo {
     padding: 150px 100px; 
     background-color: #fff;
+    
 }
 
 .conteudo h1 {
@@ -108,6 +109,7 @@ body {
     color: #000000;
     font-weight: bold;
 }
+
 .footer {
     width: 100%;
     background-color: rgb(80, 162, 255);
@@ -122,45 +124,12 @@ body {
     width: 100px;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Espaçamento entre os ícones */
+strong {
+    font-size: 1.5em;
 }
-
-.social-icons a img {
-    width: 50px; /* Tamanho inicial dos ícones */
-    height: auto;
-    transition: transform 0.3s ease-in-out; /* Efeito de transição suave */
+li{
+    font-size: 1.3em;
 }
-
-.social-icons a img:hover {
-    transform: scale(1.2); /* Aumenta o tamanho em 20% ao passar o mouse */
-}
-
-/* Estilo para o logo no rodapé */
-.img-ft {
-    width: 100px; /* Tamanho do logo no rodapé */
-    height: auto; /* Altura automática para manter a proporção */
-}
-
-h3{
-    text-align: center;
-    font-size: 25px;
-}
-
-.intro {
-    margin-bottom: 50px; /* Define o espaçamento inferior desejado */
-}
-
-.topic{
-
-    font-size: 30px;
-    text-align: center;
-}
-
-
-
 .imagem1 img,
 .imagem2 img,
 .imagem3 img {
@@ -168,33 +137,18 @@ h3{
     max-height: auto; /* Isso mantém a proporção original da imagem */
     float: left;
     margin-right: 20px;
+    shape-outside: circle(); /* Ou outra forma que desejar */
+    clip-path: circle(); /* Mesma forma usada no shape-outside */
 }
-
 
 .imagem2 img {
-    float: right;
-    width: 200px;
+    float: right; /* Para garantir que a imagem 2 fique à direita */
 }
 
-.imagem3 img {
-    clear: both;
-    animation: subirDescer 3s ease-in-out infinite,sombra 2s ease-in-out infinite alternate;
+.imagem3 {
+    clear: both; /* Para garantir que a imagem 3 comece abaixo da imagem 2 */
 }
 
-
-
-
-@keyframes subirDescer {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
 #audio-player {
     display: flex;
     align-items: center;
@@ -205,5 +159,7 @@ h3{
 #audio-player p {
     margin: 0 10px; /* Espaço entre o texto e o player */
 }
+
+
 
 

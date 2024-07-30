@@ -11,3 +11,17 @@ window.addEventListener('scroll', function(){
     onda3.style.backgroundPositionX = 200 + rolagemPos * 2 + 'px';
     onda4.style.backgroundPositionX = 100 + rolagemPos * -2 + 'px';
 })
+
+    var colheitadeira = document.querySelector('.colheitadeira-image');
+    window.addEventListener('scroll', function() {
+        var rolagemPos = window.scrollY;
+        colheitadeira.style.left = 50 + rolagemPos * 2 + 'px';
+    });
+
+
+
+
+
+
+
+    

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgroInova</title>
+    <link rel="stylesheet" href="inovacao.css">
+    <link rel="icon" href="img/fav-icon.png" type="image/png">
+</head>
+<body>
+    <!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        });
+    </script>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                <li><a href="inovacao.html"><b><u>Inovação</u></b></a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="conteudo" id="sobre">
+        <div id="audio-player">
+            <p>Acessibilidade - Síntese de fala:</p>
+            <audio controls>
+                <source src="audio/Inovação.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        <h1>Transformando Desafios em Oportunidades</h1>
+        <p>Bem-vindo à página de Inovação, onde exploramos técnicas revolucionárias que unem o campo e a cidade em um cenário de progresso sustentável. Nesta jornada de descoberta, destacamos como a inovação está moldando o futuro da agricultura e das comunidades urbanas, transformando desafios em oportunidades tangíveis.</p>
+        
+        <h2>Técnicas Avançadas</h2>
+            <li>
+                <strong> Agro-Tecnologia de Precisão:</strong> Utilizando sensores e IoT para monitorar condições de solo, clima e saúde das plantas em tempo real, aumentando a eficiência e reduzindo o uso de recursos.
+                <div class="imagem1">
+                    <img src="img/lav-tec.png" alt="Imagem Lavoura tecnologia">
+                </div>
+            </li>
+            <li>
+                <strong> Agricultura Vertical e Urbana:</strong> Cultivo em ambientes controlados e integrados à infraestrutura urbana, promovendo a produção local de alimentos frescos e reduzindo a pegada ambiental.
+                <div class="imagem2">
+                    <img src="img/blockchain.png" alt="Imagem de fruta rastreada">
+                </div>
+            </li>
+            <li>
+                <strong> Gestão Inteligente de Resíduos:</strong> Transformando resíduos agrícolas em recursos valiosos através de técnicas como compostagem e bioenergia, contribuindo para uma economia circular e sustentável.
+            </li>
+            <li>
+                <strong>  Blockchain na Cadeia de Suprimentos:</strong> Garantindo transparência e rastreabilidade desde o campo até o consumidor final, promovendo a segurança alimentar e o comércio justo.
+                <div class="imagem3">
+                    <img src="img/cidade.png" alt="Imagem de uma cidade verde tecnológica">
+                </div>
+            </li>        
+        <h2>Benefícios para o Futuro</h2>
+        <p>Ao adotar estas técnicas inovadoras, não apenas promovemos um desenvolvimento econômico inclusivo, mas também fortalecemos a resiliência das nossas comunidades frente aos desafios globais. Juntos, estamos colhendo oportunidades para um amanhã mais verde, conectado e sustentável.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 AgroInova</p>
+        <img class="img-ft" src="img/logo.png" alt="Logo-Rodapé">
+    </footer>
+  
+</body>
+</html>

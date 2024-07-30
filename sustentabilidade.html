@@ -1,25 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AgroInova - Sustentabilidade</title>
+    <title>AgroInova</title>
     <link rel="stylesheet" href="sustentabilidade.css">
     <link rel="icon" href="img/fav-icon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        });
+    </script>
+
     <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
+            </a>
+        </div>
         <nav>
             <ul>
-                <li><a href="index.html#inicio">Início</a></li>
-                <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sustentabilidade.html"><b><u>Sustentabilidade</u></b></a></li>
+                <li><a href="inovacao.html">Inovação</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="conteudo" id="sobre">
-        <h1>Sustentabilidade</h1>
-        <p>Informações sobre o site...</p>
+    <section class="conteudo" id="sustentabilidade">
+        <div id="audio-player">
+            <p>Acessibilidade - Síntese de fala:</p>
+            <audio controls>
+                <source src="audio/Sustentabilidade.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        <h1>Sustentabilidade: Integrando Campo e Cidade com Tecnologia e Inovação</h1>
+
+        <h2><li>Sustentabilidade no Campo</li></h2>
+        <p>No campo, a sustentabilidade é fundamental para garantir que os recursos naturais sejam preservados para as futuras gerações. Técnicas de agricultura regenerativa, como o uso de adubos naturais, rotação de culturas e a preservação de áreas de vegetação nativa, são práticas essenciais para manter a saúde do solo e a biodiversidade. Além disso, a implementação de tecnologias avançadas, como sensores de umidade e drones de monitoramento, permite um uso mais eficiente dos recursos hídricos e a redução do uso de agrotóxicos.</p>
+        <div class="imagem1">
+            <img src="img/soja-agrinho.png" alt="Imagem Soja Agrinho">
+        </div>
+
+        <h2><li>Contribuição das Cidades para a Sustentabilidade</li></h2>
+        <p>As cidades têm um papel crucial na promoção da sustentabilidade. Com iniciativas como hortas comunitárias e jardins verticais, os centros urbanos podem contribuir para a produção de alimentos frescos e locais, reduzindo a dependência de longas cadeias de suprimentos e diminuindo a pegada de carbono. A coleta seletiva e a reciclagem de resíduos orgânicos para a produção de compostagem são outras práticas que fortalecem a conexão entre o urbano e o rural.</p>
+        <div class="imagem2">
+            <img src="img/mao-drone.png" alt="Imagem Mão em Drone">
+        </div>
+
+        <h2><li>Tecnologia como Aliada da Sustentabilidade</li></h2>
+        <p>A tecnologia é uma poderosa aliada na promoção da sustentabilidade. Ferramentas como a inteligência artificial e a internet das coisas (IoT) permitem uma gestão mais eficiente das fazendas, monitorando em tempo real as condições climáticas, de solo e de saúde das plantas. Esses dados ajudam os agricultores a tomar decisões mais informadas e a otimizar suas operações, reduzindo desperdícios e aumentando a produtividade de maneira sustentável.</p>
+
+        <h2><li>Governo do Paraná e Sustentabilidade</li></h2>
+        <div class="imagem3">
+            <img src="img/paranawin.png" alt="Imagem do mapa do Paraná">
+        </div>
+        <p>O Governo do Paraná tem sido um exemplo de liderança na promoção da sustentabilidade e inovação no agronegócio. Com políticas públicas voltadas para a preservação ambiental, incentivos à adoção de tecnologias sustentáveis e apoio a projetos de agricultura familiar, o Paraná tem demonstrado um compromisso sólido com o desenvolvimento de um setor agrícola mais verde e eficiente. As iniciativas do governo estadual têm sido essenciais para transformar o estado em um modelo de sustentabilidade, mostrando como a integração entre campo e cidade pode gerar benefícios significativos para todos.</p>
+        
+        <p>O Governo do Paraná tem investido em tecnologia e inovação para fortalecer o setor agrícola, garantindo a sustentabilidade e a eficiência na produção de alimentos.</p>
     </section>
-  
+
+    <footer class="footer">
+        <p>&copy; 2024 AgroInova</p>
+        <img class="img-ft" src="img/logo.png" alt="Logo-Rodapé">
+    </footer>
 </body>
 </html>

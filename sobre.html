@@ -1,51 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroInova</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sobre.css">
     <link rel="icon" href="img/fav-icon.png" type="image/png">
 </head>
 <body>
+    <!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        });
+    </script>
+
     <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
+            </a>
+        </div>
         <nav>
             <ul>
-                <li class="logo-item">
-                    <a href="index.html">
-                        <img src="img/logo.png" alt="Logo AgroInova" class="header-logo">
-                    </a>
-                </li>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="inovacao.html">Inovação</a></li>
+                <li><a href="sobre.html"><b><u>Sobre</u></b></a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="ondas-box" id="inicio">
-        <div class="titulo">
-            <h1>Agrinho 2024</h1>
-            <p class="scroll-text">Role a página para baixo</p>
-            <div class="logo">
-                <img src="img/logo.png" alt="logo agrinho - Erick">
-            </div>
+    <section class="conteudo" id="sobre">
+        <h1>Sobre:</h1>
+        <div class="imagem2">
+            <img src="img/agrinho2024.png" alt="Imagem de uma celular com a logo do Vlibras Acessibilidade">
         </div>
+        <div id="audio-player">
+            <p>Acessibilidade - Síntese de fala:</p>
+            <audio controls>
+                <source src="audio/Sobre.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        <p>Bem-vindo ao AgroInova! Meu nome é Erick Matheus e sou o criador deste site. Sou estudante da Escola Estadual Professora Edithe, de Campo Largo, e criei este site como parte do concurso Agrinho 2024. Nosso objetivo é promover a integração entre campo e cidade, utilizando tecnologia e inovação para uma agricultura mais sustentável.</p>
+    
+        <p>O site AgroInova foi desenvolvido com a intenção de mostrar como o campo e a cidade podem colaborar mutuamente para criar oportunidades e promover a sustentabilidade. Foi pensado com carinho para ser acessível a todo público, incluindo recursos como:</p>
         
-        <div class="onda" id="onda1"></div>
-        <div class="onda" id="onda2"></div>
-        <div class="onda" id="onda3"></div>
-        <div class="onda" id="onda4"></div>
-    </section>
-
-    <section class="conteudo">
-        <h1>Do campo à cidade, colhendo oportunidades</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi, enim eveniet atque eaque ut iste animi nesciunt tempore esse placeat mollitia, voluptates nostrum totam dolorem, voluptatem corporis sit consequatur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi et a neque explicabo, debitis aspernatur adipisci? Quam accusantium odio voluptatum sint eveniet adipisci quo tenetur quasi, ipsa quos, voluptatem veniam.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione neque quasi facilis quam quos mollitia ipsa voluptates, sint at velit eum corrupti placeat? Nihil, quia dignissimos cupiditate nemo pariatur et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ullam quasi officia, non odit, sit aspernatur dicta eos, odio fuga expedita architecto nulla obcaecati labore at voluptate quae dolores ipsam!</p><br><br>
-        <div class="text-and-image">
-            <img src="img/drone.png" alt="Drone" class="drone-image">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi, enim eveniet atque eaque ut iste animi nesciunt tempore esse placeat mollitia, voluptates nostrum totam dolorem, voluptatem corporis sit consequatur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi et a neque explicabo, debitis aspernatur adipisci? Quam accusantium odio voluptatum sint eveniet adipisci quo tenetur quasi, ipsa quos, voluptatem veniam.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione neque quasi facilis quam quos mollitia ipsa voluptates, sint at velit eum corrupti placeat? Nihil, quia dignissimos cupiditate nemo pariatur et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ullam quasi officia, non odit, sit aspernatur dicta eos, odio fuga expedita architecto nulla obcaecati labore at voluptate quae dolores ipsam!</p>
+        <div class="imagem3">
+            <img src="img/mockup.png" alt="Imagem de uma celular com a logo do Vlibras Acessibilidade">
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi, enim eveniet atque eaque ut iste animi nesciunt tempore esse placeat mollitia, voluptates nostrum totam dolorem, voluptatem corporis sit consequatur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi et a neque explicabo, debitis aspernatur adipisci? Quam accusantium odio voluptatum sint eveniet adipisci quo tenetur quasi, ipsa quos, voluptatem veniam.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione neque quasi facilis quam quos mollitia ipsa voluptates, sint at velit eum corrupti placeat? Nihil, quia dignissimos cupiditate nemo pariatur et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ullam quasi officia, non odit, sit aspernatur dicta eos, odio fuga expedita architecto nulla obcaecati labore at voluptate quae dolores ipsam!</p>
+            <li class= "topic" >LIBRAS (vLibras)</li>
+           
+            <li class= "topic" >Síntese de fala (Eleven Labs)</li>
+
+            <p class="intro"></p>
+        
+        <p>Utilizei meu próprio talento para criar os ícones e o logo do site.</p>
+        
+        <p>Utilizamos imagens geradas por IA, Microsoft Bing.</p>
+        
+        <p>Através de diversas seções, mostramos técnicas inovadoras e contribuições das cidades para o campo, destacando o papel crucial da tecnologia como aliada nesse processo.</p>
+        <p class="intro"></p>
+
+        <h3>Entre em contato comigo através dos seguintes canais:</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/erickmth_" target="_blank">
+                <img src="img/instagram.png" alt="Instagram">
+            </a>
+            <a href="mailto:erickmth4565@gmail.com">
+                <img src="img/email.png" alt="Email">
+            </a>
+        </div>
     </section>
 
-    <script src="main.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 AgroInova</p>
+        <img class="img-ft" src="img/logo.png" alt="Logo-Rodapé">
+    </footer>
 </body>
 </html>

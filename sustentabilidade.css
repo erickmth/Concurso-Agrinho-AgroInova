@@ -9,13 +9,14 @@
 
 body {
     background-color: rgb(80, 162, 255);
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
 }
 
-.header {
+.header, .footer {
     position: fixed;
     width: 100%;
     background-color: rgb(80, 162, 255);
-    padding: 10px 0;
+    padding: 1px 0;
     z-index: 1000;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
@@ -25,28 +26,41 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-
 }
 
 .header nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s;
     transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; 
 }
 
-
 .header nav ul li a:hover {
     color: #000000;
-        color: #000000;
-        font-size: 19px;
-        font-weight: bold;
-
+    font-size: 19px;
+    font-weight: bold;
 }
+
+.titulo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: -1;
+    font-size: 40px;
+    color: #fff;
+}
+
+.logo img {
+    width: 200px;
+}
+
 .conteudo {
     padding: 150px 100px; 
     background-color: #fff;
+    
 }
 
 .conteudo h1 {
@@ -56,4 +70,145 @@ body {
 
 .conteudo p {
     font-size: 1.5em;
+}
+
+.conteudo h2 {
+    font-size: 1.5em;
+}
+
+.conteudo ul li {
+    font-size: 1.5em;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(80, 162, 255);
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin-top: 0px;
+}
+.img-ft {
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos horizontalmente */
+    align-items: center; /* Alinha verticalmente os itens no cabeçalho */
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    background-color: rgb(80, 162, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo .logo-img {
+    width: 80px; /* Ajuste o tamanho da imagem do logo */
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre o logo e o título */
+}
+
+.header nav {
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+    text-align: center; /* Centraliza os itens do menu */
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os itens do menu */
+    gap: 20px;
+}
+
+.header nav ul li {
+    margin: 0 10px; /* Espaçamento entre os itens do menu */
+}
+
+.header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+#audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center; /* Alinha o texto centralmente */
+}
+
+#audio-player p {
+    margin: 0 10px; /* Espaço entre o texto e o player */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+}
+
+.imagem1 img,
+.imagem2 img,
+.imagem3 img {
+    max-width: 200px; /* Ajuste o valor conforme necessário */
+    max-height: auto; /* Isso mantém a proporção original da imagem */
+    float: left;
+    margin-right: 20px;
+    shape-outside: circle(); /* Ou outra forma que desejar */
+    clip-path: circle(); /* Mesma forma usada no shape-outside */
+}
+
+.imagem2 img {
+    float: right; /* A imagem 2 flutua para a direita */
+}
+
+.imagem3 img {
+    clear: both; /* Limpa ambas as margens para a imagem 3 */
 }
