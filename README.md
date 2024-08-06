@@ -1,15 +1,15 @@
 # AgroInova
 
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="Visualização" width="300"/>
+<p>
+  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="Ícone" width="30" style="vertical-align: middle;"/>
+  AgroInova
 </p>
 
 ## Concurso Agrinho 2024
 **Tema: Do campo à cidade colhendo oportunidades**
 
-<p>
-  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="Ícone" width="30" style="vertical-align: middle;"/>
-  AgroInova
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Visualização" width="300"/>
 </p>
 
 ## TEMA – AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES
@@ -74,5 +74,5 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 - Bing AI generative
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="Visualização" width="300"/>
+  <img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Visualização" width="300"/>
 </p>
