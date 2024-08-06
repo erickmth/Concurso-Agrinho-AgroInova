@@ -77,5 +77,6 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Colheitadeira com uma faixada escrita Agrinho "  width="300"/>
+  <img src="https://drive.google.com/uc?export=view&id=1lyfFoRlHmKUZCV7HcdfzuRbrwOec_po_" alt="Colheitadeira com uma faixada escrita Agrinho "  width="300"/>
 </p>
+
