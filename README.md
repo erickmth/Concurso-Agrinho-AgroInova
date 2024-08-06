@@ -1,10 +1,11 @@
-# README - AgroInova
+# AgroInova
 
 ## Concurso Agrinho 2024
 **Tema: Do campo à cidade colhendo oportunidades**
 
 # AgroInova
-![Visualização](https://drive.google.com/file/d/1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5/view?usp=sharing)
+![Visualização](https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5)
+
 ## TEMA – AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES
 
 ### Nome do Projeto de Programação:
@@ -47,8 +48,6 @@ O site AgroInova foi desenvolvido com um forte enfoque em acessibilidade para ga
 - CSS
 - JavaScript
 
-
-
 ### Objetivos do Projeto
 
 Este projeto visa não apenas vencer o concurso Agrinho 2024, mas também destacar a importância da sustentabilidade e da tecnologia no desenvolvimento rural. Queremos mostrar como as inovações podem criar um futuro melhor para todos, conectando o campo e a cidade.
@@ -56,7 +55,6 @@ Este projeto visa não apenas vencer o concurso Agrinho 2024, mas também destac
 ### Justificativa do Projeto
 
 A motivação para este projeto é a crescente necessidade de integrar práticas sustentáveis com as tecnologias modernas para melhorar a vida tanto nas áreas urbanas quanto rurais. O AgroInova demonstra como essa integração pode ser alcançada, beneficiando comunidades e o meio ambiente.
-
 
 ### Considerações Finais
 
@@ -69,4 +67,4 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 - VR Libras (Acessibilidade libras)
 - Bing AI generative
 
-![Visualização](https://drive.google.com/file/d/1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6/view?usp=sharing)
+![Visualização](https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6)
