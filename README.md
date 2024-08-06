@@ -4,7 +4,10 @@
 **Tema: Do campo à cidade colhendo oportunidades**
 
 # AgroInova
-<img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Visualização" width="300"/>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Visualização" width="300"/>
+</p>
 
 ## TEMA – AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES
 
@@ -67,4 +70,6 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 - VR Libras (Acessibilidade libras)
 - Bing AI generative
 
-<img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Visualização" width="300"/>
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Visualização" width="300"/>
+</p>
