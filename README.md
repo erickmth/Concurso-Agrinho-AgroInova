@@ -1,11 +1,8 @@
-<p>
-  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="logo AgroInova" width="50" style="vertical-align: middle;"/>
 
-</p>
 # AgroInova 
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Visualização" width="300"/>
+  <img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Logo Agrinho & AgroInova" width="300"/>
 </p>
 
 ## Concurso Agrinho 2024
@@ -18,7 +15,10 @@
 ### Nome do Projeto de Programação:
 
 **AgroInova**
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="logo AgroInova" width="50" style="vertical-align: middle;"/>
 
+</p>
 ### Descrição:
 
 AgroInova é um site desenvolvido para o concurso Agrinho 2024, que explora a integração entre o campo e a cidade, destacando oportunidades através da sustentabilidade e inovação tecnológica.
@@ -76,5 +76,5 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Visualização" width="300"/>
+  <img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Colheitadeira com uma faixada escrita Agrinho "  width="300"/>
 </p>
