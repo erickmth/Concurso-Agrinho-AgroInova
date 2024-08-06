@@ -15,10 +15,11 @@
 ### Nome do Projeto de Programação:
 
 **AgroInova**
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="logo AgroInova" width="50" style="vertical-align: middle;"/>
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1UTkK0MedRccoVwtaU-V23Hu3G3IBXhQv" alt="logo AgroInova" width=100" style="vertical-align: middle;"/>
 </p>
+
 ### Descrição:
 
 AgroInova é um site desenvolvido para o concurso Agrinho 2024, que explora a integração entre o campo e a cidade, destacando oportunidades através da sustentabilidade e inovação tecnológica.
