@@ -6,8 +6,9 @@
 # AgroInova
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Visualização" width="300"/>
+  <img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Logo Agrinho & AgroInova" width="300"/>
 </p>
+
 
 ## TEMA – AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES
 
@@ -71,5 +72,5 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 - Bing AI generative
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Visualização" width="300"/>
+  <img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Desenho de uma Colheitadeira com a logo Agrinho" width="300"/>
 </p>
