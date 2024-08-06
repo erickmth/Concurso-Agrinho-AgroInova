@@ -4,7 +4,7 @@
 **Tema: Do campo à cidade colhendo oportunidades**
 
 # AgroInova
-![Visualização](https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5)
+<img src="https://drive.google.com/uc?export=view&id=1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5" alt="Visualização" width="300"/>
 
 ## TEMA – AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES
 
@@ -40,7 +40,7 @@ O site AgroInova foi desenvolvido com um forte enfoque em acessibilidade para ga
 
 ### Como Usar?
 
-1. Acesse o link anexado ao repositório e boa experiência! 
+1. Acesse o link anexado ao repositório e boa experiência!
 
 ### Tecnologias Utilizadas:
 
@@ -62,9 +62,9 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 
 ### Créditos
 
-- Todas imagens neste sites, são geradas por IA e/ou autorais.
+- Todas imagens neste site são geradas por IA e/ou autorais.
 - Eleven Labs (Síntese de fala)
 - VR Libras (Acessibilidade libras)
 - Bing AI generative
 
-![Visualização](https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6)
+<img src="https://drive.google.com/uc?export=view&id=1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6" alt="Visualização" width="300"/>
