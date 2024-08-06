@@ -3,38 +3,70 @@
 ## Concurso Agrinho 2024
 **Tema: Do campo à cidade colhendo oportunidades**
 
-### Sobre o Projeto
-O site AgroInova foi desenvolvido para o concurso Agrinho 2024, com o objetivo de explorar e destacar as oportunidades que surgem na integração entre o campo e a cidade, focando em sustentabilidade e inovação tecnológica. 
+# AgroInova
+![Visualização](https://drive.google.com/file/d/1QEFuFfr8TNC5lSpzPxhetTFIA029Gwl5/view?usp=sharing)
+## TEMA – AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES
 
-### Estrutura do Site
+### Nome do Projeto de Programação:
 
-#### Início
-A página inicial apresenta uma visão geral das oportunidades que emergem da relação entre o campo e a cidade. Aqui, discutimos como essa integração pode gerar benefícios econômicos, sociais e ambientais, promovendo um desenvolvimento mais sustentável e equilibrado.
+**AgroInova**
 
-#### Sustentabilidade
-Nesta seção, exploramos o conceito de sustentabilidade, enfatizando a importância da tecnologia para a agricultura e as práticas urbanas. Abordamos como métodos sustentáveis podem ser implementados para conservar recursos, reduzir impactos ambientais e promover uma produção agrícola mais eficiente e ecológica.
+### Descrição:
 
-#### Inovação
-A página de inovação é dedicada às técnicas inovadoras de sustentabilidade que utilizam tecnologia de ponta. Aqui, apresentamos exemplos práticos de como a tecnologia pode transformar a agricultura, desde o uso de drones para monitoramento de culturas até a implementação de sistemas de irrigação inteligente e outras ferramentas avançadas que aumentam a produtividade e reduzem o desperdício.
+AgroInova é um site desenvolvido para o concurso Agrinho 2024, que explora a integração entre o campo e a cidade, destacando oportunidades através da sustentabilidade e inovação tecnológica.
 
-#### Sobre
-Nesta seção, você encontrará informações sobre o criador do site, Erick Matheus, incluindo detalhes de contato e uma breve biografia. Esta página é destinada a fornecer uma conexão pessoal com os visitantes, destacando a motivação e o comprometimento com o tema do concurso.
+### Funcionalidades
 
-### Tecnologias Utilizadas
-- **HTML/CSS:** Para a estrutura e estilo das páginas.
-- **JavaScript:** Para funcionalidades interativas e dinâmicas.
-- **Imagens geradas por IA (Microsoft Copilot):** Imagens criadas pelo modelo de inteligência artificial Microsoft Copilot.
-- **Imagens vetorizadas autorais:** Todas as imagens vetorizadas utilizadas no site são de criação própria.
-- **Fontes:** As fontes utilizadas neste site são provenientes do Google Fonts.
-- **Síntese de fala:** O recurso de síntese de fala é fornecido pela Eleven Labs.
-- **Código autoral:** Todos os códigos presentes neste site são de autoria própria. Qualquer forma de plágio, remasterização ou uso não autorizado será tratado com rigor.
+- **Página Inicial:** Introdução às oportunidades do campo e da cidade e sua inter-relação.
+- **Sustentabilidade:** Discussão sobre práticas sustentáveis e tecnologias aplicadas ao campo.
+- **Inovação:** Técnicas inovadoras de sustentabilidade utilizando tecnologia.
+- **Sobre:** Informações sobre o desenvolvedor, a escola e a criação do site.
 
-### Contato
-Para mais informações ou para entrar em contato, visite a seção "Sobre" no site.
+### Acessibilidade
 
----
+O site AgroInova foi desenvolvido com um forte enfoque em acessibilidade para garantir que todos os usuários, independentemente de suas habilidades, possam acessar e interagir com o conteúdo. Implementamos:
 
-**Nota:** Este site é parte do projeto apresentado para o concurso Agrinho 2024, e todos os conteúdos e informações aqui presentes foram criados com o objetivo de promover o tema do concurso e a conscientização sobre a importância da integração entre campo e cidade através da sustentabilidade e inovação tecnológica.
+- Navegação por teclado.
+- Libras
+- Textos alternativos em imagens.
+- Síntese de fala
+
+### Créditos
+
+- **Desenvolvedor:** Erick Matheus
+- **Orientador:** Maria Aparecida Bilinowski Mazur
+- **Escola:** Escola Estadual Professora Edithe
+
+### Como Usar?
+
+1. Acesse o link anexado ao repositório e boa experiência! 
+
+### Tecnologias Utilizadas:
+
+- HTML
+- CSS
+- JavaScript
 
 
-![Visualização](https://drive.google.com/uc?export=view&id=1R6-NOyGScw8r0yGU32ZHcl2WgPtUBZqZ)
+
+### Objetivos do Projeto
+
+Este projeto visa não apenas vencer o concurso Agrinho 2024, mas também destacar a importância da sustentabilidade e da tecnologia no desenvolvimento rural. Queremos mostrar como as inovações podem criar um futuro melhor para todos, conectando o campo e a cidade.
+
+### Justificativa do Projeto
+
+A motivação para este projeto é a crescente necessidade de integrar práticas sustentáveis com as tecnologias modernas para melhorar a vida tanto nas áreas urbanas quanto rurais. O AgroInova demonstra como essa integração pode ser alcançada, beneficiando comunidades e o meio ambiente.
+
+
+### Considerações Finais
+
+Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-relação entre campo e cidade, destacando as oportunidades de um futuro sustentável e inovador.
+
+### Créditos
+
+- Todas imagens neste sites, são geradas por IA e/ou autorais.
+- Eleven Labs (Síntese de fala)
+- VR Libras (Acessibilidade libras)
+- Bing AI generative
+
+![Visualização](https://drive.google.com/file/d/1eZWaR7-hq0NALJ76Ht6V8hKRYu0I7Fh6/view?usp=sharing)
