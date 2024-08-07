@@ -12,10 +12,57 @@ body {
 }
 
 .header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(80, 162, 255);
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.header nav ul {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; 
+}
+
+
+.header nav ul li a:hover {
+    color: #000000;
+        color: #000000;
+        font-size: 19px;
+        font-weight: bold;
+
+}
+.conteudo {
+    padding: 150px 100px; 
+    background-color: #fff;
+}
+
+.conteudo h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    font-size: 1.5em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos horizontalmente */
+    align-items: center; /* Alinha verticalmente os itens no cabeçalho */
+    padding: 10px 20px; /* Ajuste conforme necessário */
     background-color: rgb(80, 162, 255);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -29,54 +76,38 @@ body {
 }
 
 .header .logo .logo-img {
-    width: 80px;
+    width: 80px; /* Ajuste o tamanho da imagem do logo */
     height: auto;
-    margin-right: 10px;
+    margin-right: 10px; /* Espaçamento entre o logo e o título */
 }
 
 .header nav {
-    flex-grow: 1;
-    text-align: center;
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+    text-align: center; /* Centraliza os itens do menu */
 }
 
 .header nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centraliza horizontalmente os itens do menu */
     gap: 20px;
 }
 
 .header nav ul li {
-    margin: 0 10px;
+    margin: 0 10px; /* Espaçamento entre os itens do menu */
 }
 
 .header nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    transition: color 0.3s;
 }
 
 .header nav ul li a:hover {
     color: #000000;
-    font-size: 19px;
     font-weight: bold;
 }
-
-.conteudo {
-    padding: 150px 100px;
-    background-color: #fff;
-}
-
-.conteudo h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.conteudo p {
-    font-size: 1.5em;
-}
-
 .footer {
     width: 100%;
     background-color: rgb(80, 162, 255);
@@ -87,7 +118,6 @@ body {
     position: relative;
     margin-top: 0px;
 }
-
 .img-ft {
     width: 100px;
 }
@@ -95,41 +125,51 @@ body {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; /* Espaçamento entre os ícones */
 }
 
 .social-icons a img {
-    width: 50px;
+    width: 50px; /* Tamanho inicial dos ícones */
     height: auto;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out; /* Efeito de transição suave */
 }
 
 .social-icons a img:hover {
-    transform: scale(1.2);
+    transform: scale(1.2); /* Aumenta o tamanho em 20% ao passar o mouse */
 }
 
-h3 {
+/* Estilo para o logo no rodapé */
+.img-ft {
+    width: 100px; /* Tamanho do logo no rodapé */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+h3{
     text-align: center;
     font-size: 25px;
 }
 
 .intro {
-    margin-bottom: 50px;
+    margin-bottom: 50px; /* Define o espaçamento inferior desejado */
 }
 
-.topic {
+.topic{
+
     font-size: 30px;
     text-align: center;
 }
 
+
+
 .imagem1 img,
 .imagem2 img,
 .imagem3 img {
-    max-width: 200px;
-    max-height: auto;
+    max-width: 200px; /* Ajuste o valor conforme necessário */
+    max-height: auto; /* Isso mantém a proporção original da imagem */
     float: left;
     margin-right: 20px;
 }
+
 
 .imagem2 img {
     float: right;
@@ -138,8 +178,11 @@ h3 {
 
 .imagem3 img {
     clear: both;
-    animation: subirDescer 3s ease-in-out infinite, sombra 2s ease-in-out infinite alternate;
+    animation: subirDescer 3s ease-in-out infinite,sombra 2s ease-in-out infinite alternate;
 }
+
+
+
 
 @keyframes subirDescer {
     0% {
@@ -152,14 +195,15 @@ h3 {
         transform: translateY(0);
     }
 }
-
 #audio-player {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center; /* Alinha o texto centralmente */
 }
 
 #audio-player p {
-    margin: 0 10px;
+    margin: 0 10px; /* Espaço entre o texto e o player */
 }
+
+
