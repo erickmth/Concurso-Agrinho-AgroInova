@@ -20,21 +20,26 @@
         });
     </script>
 
-    <header class="header">
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
-            </a>
+<header class="header">
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
+        </a>
+    </div>
+    <nav>
+        <ul class="menudesk">
+            <li><a href="index.html">Início</li>
+            <li><a href="sustentabilidade.html">ustentabilidade</a></li>
+            <li><a href="inovacao.html"><b><u>Inovação</u></b></a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+        <div id="menu-toggle" class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
-                <li><a href="inovacao.html"><b><u>Inovação</u></b></a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-        </nav>
-    </header>
+    </nav>
+</header>
 
     <section class="conteudo" id="sobre">
         <div id="audio-player">
@@ -77,6 +82,17 @@
         <p>&copy; 2024 AgroInova</p>
         <img class="img-ft" src="img/logo.png" alt="Logo-Rodapé">
     </footer>
-  
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+            document.getElementById('overlay').classList.toggle('active');
+        });
+        
+        document.getElementById('overlay').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.remove('active');
+            document.getElementById('overlay').classList.remove('active');
+        });
+        
+            </script>
 </body>
 </html>

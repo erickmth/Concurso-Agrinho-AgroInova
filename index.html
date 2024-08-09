@@ -6,19 +6,6 @@
     <link rel="icon" href="img/fav-icon.png" type="image/png">
 </head>
 <body>
-    <!-- VLibras Widget -->
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-        });
-    </script>
     <header class="header">
         <div class="logo">
             <a href="index.html">
@@ -27,13 +14,21 @@
         </div>
         <nav>
             <ul class="menudesk">
-                <li><a href="index.html"><b><u>Início </u></b></a></li>
+                <li><a href="index.html"><b><u>Início</u></b></li>
                 <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
                 <li><a href="inovacao.html">Inovação</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
             </ul>
+            <div id="menu-toggle" class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
+
+    <!-- Adicione a sobreposição -->
+    <div id="overlay" class="overlay"></div>
     
     <section class="ondas-box" id="inicio">
         <div class="titulo">
@@ -44,7 +39,7 @@
         </div><!--titulo-->
         <section class="colheitadeira-section">
             <div class="colheitadeira-image">
-                <img src="img/colheitadeira.png" alt="Colheitadeira" class="colheitadeira">
+              <img src="img/colheitadeira.png" alt="Colheitadeira" class="colheitadeira"></a>
             </div>
         </section>
         
@@ -77,13 +72,24 @@
             <li><strong>Colaboração para Desafios Globais:</strong> Trocas de conhecimento e tecnologia entre campo e cidade são essenciais para enfrentar desafios como mudanças climáticas e segurança alimentar.</li>
         </ul>
     </section>
+    <!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
     <footer class="footer">
         <p>&copy; 2024 AgroInova</p>
-        <img class="img-ft" src="img/logo.png" alt="Logo-Rodapé">
+        <img class= "img-ft" src="/img/logo.png" alt="Logo-Rodapé">
     </footer>
 
-
-    <script src="main.js"></script> 
+    <script src="main.js"></script>
+    
 </body>
 </html>

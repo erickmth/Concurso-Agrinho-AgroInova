@@ -21,24 +21,31 @@
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         });
     </script>
-
-    <header class="header">
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
-            </a>
+  <header class="header">
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
+        </a>
+    </div>
+    <nav>
+        <ul class="menudesk">
+            <li><a href="index.html">Início</li>
+            <li><a href="sustentabilidade.html"><b><u>Sustentabilidade</u></b></a></li>
+            <li><a href="inovacao.html">Inovação</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+        <div id="menu-toggle" class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sustentabilidade.html"><b><u>Sustentabilidade</u></b></a></li>
-                <li><a href="inovacao.html">Inovação</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-        </nav>
-    </header>
+    </nav>
+</header>
+
 
     <section class="conteudo" id="sustentabilidade">
+   
+        <h1>Sustentabilidade: Integrando Campo e Cidade com Tecnologia e Inovação</h1>
         <div id="audio-player">
             <p>Acessibilidade - Síntese de fala:</p>
             <audio controls>
@@ -46,8 +53,6 @@
                 Seu navegador não suporta o elemento de áudio.
             </audio>
         </div>
-        <h1>Sustentabilidade: Integrando Campo e Cidade com Tecnologia e Inovação</h1>
-
         <h2><li>Sustentabilidade no Campo</li></h2>
         <p>No campo, a sustentabilidade é fundamental para garantir que os recursos naturais sejam preservados para as futuras gerações. Técnicas de agricultura regenerativa, como o uso de adubos naturais, rotação de culturas e a preservação de áreas de vegetação nativa, são práticas essenciais para manter a saúde do solo e a biodiversidade. Além disso, a implementação de tecnologias avançadas, como sensores de umidade e drones de monitoramento, permite um uso mais eficiente dos recursos hídricos e a redução do uso de agrotóxicos.</p>
         <div class="imagem1">
@@ -76,5 +81,19 @@
         <p>&copy; 2024 AgroInova</p>
         <img class="img-ft" src="img/logo.png" alt="Logo-Rodapé">
     </footer>
+    <script>
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('active');
+    document.getElementById('overlay').classList.toggle('active');
+});
+
+document.getElementById('overlay').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.remove('active');
+    document.getElementById('overlay').classList.remove('active');
+});
+
+    </script>
+    
+    
 </body>
 </html>

@@ -22,55 +22,58 @@
         });
     </script>
 
-    <header class="header">
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
-            </a>
+<header class="header">
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo1.png" alt="logo agrinho - Erick" class="logo-img">
+        </a>
+    </div>
+    <nav>
+        <ul class="menudesk">
+            <li><a href="index.html">Início</li>
+            <li><a href="sustentabilidade.html">ustentabilidade</a></li>
+            <li><a href="inovacao.html">Inovação</a></li>
+            <li><a href="sobre.html"><b><u></u>Sobre</u></b></a></li>
+        </ul>
+        <div id="menu-toggle" class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
-                <li><a href="inovacao.html">Inovação</a></li>
-                <li><a href="sobre.html"><b><u>Sobre</u></b></a></li>
-            </ul>
-        </nav>
-    </header>
+    </nav>
+</header>
 
     <section class="conteudo" id="sobre">
-        <h1>Sobre:</h1>
+        <h1>Sobre</h1>
         <div class="imagem2">
-            <img src="img/agrinho2024.png" alt="Imagem de uma celular com a logo do Vlibras Acessibilidade">
+            <img src="img/agrinho2024.png" alt="Imagem de um celular com a logo do VLibras Acessibilidade">
         </div>
         <div id="audio-player">
-            <p>Acessibilidade - Síntese de fala:</p>
+            <p>Acessibilidade - Síntese de Fala:</p>
             <audio controls>
                 <source src="audio/Sobre.mp3" type="audio/mpeg">
                 Seu navegador não suporta o elemento de áudio.
             </audio>
         </div>
-        <p>Bem-vindo ao AgroInova! Meu nome é Erick Matheus e sou o criador deste site. Sou estudante da Escola Estadual Professora Edithe, de Campo Largo, e criei este site como parte do concurso Agrinho 2024. Nosso objetivo é promover a integração entre campo e cidade, utilizando tecnologia e inovação para uma agricultura mais sustentável.</p>
+        <p>Bem-vindo ao AgroInova! Sou Erick Matheus, estudante da Escola Estadual Professora Edithe, em Campo Largo, e criador deste site, desenvolvido como parte do concurso Agrinho 2024. Nosso objetivo é promover a integração entre o campo e a cidade, utilizando tecnologia e inovação para uma agricultura mais sustentável.</p>
     
-        <p>O site AgroInova foi desenvolvido com a intenção de mostrar como o campo e a cidade podem colaborar mutuamente para criar oportunidades e promover a sustentabilidade. Foi pensado com carinho para ser acessível a todo público, incluindo recursos como:</p>
+        <p>O AgroInova foi criado para mostrar como o campo e a cidade podem colaborar de forma mútua, gerando oportunidades e promovendo a sustentabilidade. Este site foi cuidadosamente projetado para ser acessível a todos, incluindo recursos como:</p>
         
         <div class="imagem3">
-            <img src="img/mockup.png" alt="Imagem de uma celular com a logo do Vlibras Acessibilidade">
+            <img src="img/mockup.png" alt="Imagem de um celular com a logo do VLibras Acessibilidade">
         </div>
-            <li class= "topic" >LIBRAS (vLibras)</li>
-           
-            <li class= "topic" >Síntese de fala (Eleven Labs)</li>
+            <ul>
+                <li class="topic">LIBRAS (VLibras)</li>
+                <li class="topic">Síntese de Fala (Eleven Labs)</li>
+            </ul>
+        
+        <p>Todos os ícones e o logo do site foram criados por mim, utilizando meu próprio talento.</p>
+        
+        <p>As imagens foram geradas por inteligência artificial, através do Microsoft Bing.</p>
+        
+        <p>Nas diversas seções do site, você encontrará técnicas inovadoras e contribuições das cidades para o campo, com destaque para o papel crucial da tecnologia como aliada nesse processo.</p>
 
-            <p class="intro"></p>
-        
-        <p>Utilizei meu próprio talento para criar os ícones e o logo do site.</p>
-        
-        <p>Utilizamos imagens geradas por IA, Microsoft Bing.</p>
-        
-        <p>Através de diversas seções, mostramos técnicas inovadoras e contribuições das cidades para o campo, destacando o papel crucial da tecnologia como aliada nesse processo.</p>
-        <p class="intro"></p>
-
-        <h3>Entre em contato comigo através dos seguintes canais:</p>
+        <h3>Entre em contato comigo pelos seguintes canais:</h3>
         <div class="social-icons">
             <a href="https://www.instagram.com/erickmth_" target="_blank">
                 <img src="img/instagram.png" alt="Instagram">
@@ -80,10 +83,21 @@
             </a>
         </div>
     </section>
-
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+            document.getElementById('overlay').classList.toggle('active');
+        });
+        
+        document.getElementById('overlay').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.remove('active');
+            document.getElementById('overlay').classList.remove('active');
+        });
+        
+            </script>
     <footer class="footer">
         <p>&copy; 2024 AgroInova</p>
-        <img class="img-ft" src="img/logo.png" alt="Logo-Rodapé">
+        <img class="img-ft" src="img/logo.png" alt="Logo do Rodapé">
     </footer>
 </body>
 </html>
