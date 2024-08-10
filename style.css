@@ -9,7 +9,7 @@
 
 body {
     background-color: rgb(80, 162, 255);
-    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+    overflow-x: hidden;
 }
 
 .header, .footer {
@@ -18,7 +18,7 @@ body {
     background-color: rgb(80, 162, 255);
     padding: 1px 0;
     z-index: 1000;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header nav ul {
@@ -32,7 +32,7 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; 
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
 }
 
 .header nav ul li a:hover {
@@ -58,15 +58,15 @@ body {
 }
 
 .drone-image {
-    width: 300px; 
+    width: 300px;
     height: auto;
-    float: left; 
-    margin-right: 20px; 
-    margin-bottom: 20px; 
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .conteudo {
-    padding: 150px 100px; 
+    padding: 150px 100px;
     background-color: #fff;
 }
 
@@ -152,29 +152,27 @@ section.ondas-box {
 }
 
 .colheitadeira {
-    width: 250px; 
-    height: auto; 
-    animation: colheitadeiraAnimacao .5s ease-in-out infinite; /* Adicione a animação */
+    width: 250px;
+    height: auto;
+    animation: colheitadeiraAnimacao .5s ease-in-out infinite;
 }
 
-/* Adicione a classe para a seção da colheitadeira */
 .colheitadeira-section {
     position: relative;
-    top: 385px; /* Ajustado para 392px */
-    left: -35px; /* Ajustado para -35px */
+    top: 385px;
+    left: -35px;
 }
 
 .colheitadeira-image {
     position: absolute;
 }
 
-/* Adicione um novo keyframe para o efeito de "subida" */
 @keyframes colheitadeiraAnimacao {
     0% {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-5px); /* Mova para cima 5px */
+        transform: translateY(-5px);
     }
     100% {
         transform: translateY(0);
@@ -183,9 +181,9 @@ section.ondas-box {
 
 .header {
     display: flex;
-    justify-content: space-between; /* Distribui os elementos horizontalmente */
-    align-items: center; /* Alinha verticalmente os itens no cabeçalho */
-    padding: 10px 20px; /* Ajuste conforme necessário */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     background-color: rgb(80, 162, 255);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -199,24 +197,24 @@ section.ondas-box {
 }
 
 .header .logo .logo-img {
-    width: 80px; /* Ajuste o tamanho da imagem do logo */
+    width: 80px;
     height: auto;
 }
 
 .header nav {
-    flex-grow: 1; /* Ocupa todo o espaço restante */
-    text-align: center; /* Centraliza os itens do menu */
+    flex-grow: 1;
+    text-align: center;
 }
 
 .header nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente os itens do menu */
+    justify-content: center;
     gap: 20px;
 }
 
 .header nav ul li {
-    margin: 0 10px; /* Espaçamento entre os itens do menu */
+    margin: 0 10px;
 }
 
 .header nav ul li a {
@@ -230,80 +228,47 @@ section.ondas-box {
     color: #000000;
     font-weight: bold;
 }
+
 #audio-player {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza horizontalmente */
-    text-align: center; /* Alinha o texto centralmente */
+    justify-content: center;
+    text-align: center;
 }
 
 #audio-player p {
-    margin: 0 10px; /* Espaço entre o texto e o player */
+    margin: 0 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Adicionando os Media queries*/
-
 
 @media screen and (max-width: 1024px) {
     .header {
-        padding: 10px 10px; /* Ajuste para telas menores */
+        padding: 10px 10px;
     }
 
     .conteudo {
-        padding: 100px 10px; /* Ajuste conforme necessário */
+        padding: 100px 10px;
     }
 
     .conteudo h1 {
-        font-size: 2em; /* Ajuste para telas menores */
+        font-size: 2em;
     }
 
     .conteudo p, .conteudo h2, .conteudo ul li {
-        font-size: 1em; /* Ajuste para telas menores */
+        font-size: 1em;
     }
 }
 
 @media screen and (max-width: 768px) {
     .conteudo {
-        padding: 80px 10px; /* Ajuste conforme necessário para dispositivos menores */
+        padding: 80px 10px;
     }
 
     .conteudo h1 {
-        font-size: 1.5em; /* Ajuste para dispositivos menores */
+        font-size: 1.5em;
     }
 
     .conteudo p, .conteudo h2, .conteudo ul li {
-        font-size: 0.9em; /* Ajuste para dispositivos menores */
+        font-size: 0.9em;
     }
 }
 
@@ -326,7 +291,6 @@ section.ondas-box {
 }
 
 @media screen and (max-width: 992px) {
-
     .conteudo {
         padding: 100px 10px;
     }
@@ -344,33 +308,14 @@ section.ondas-box {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estilos para o botão de hambúrguer */
 .menu-toggle {
-    display: none; /* Esconde o botão de hambúrguer por padrão */
+    display: none;
     flex-direction: column;
     cursor: pointer;
     position: absolute;
-    right: 20px; /* Posiciona o botão de hambúrguer à direita */
-    top: 50%; /* Centraliza verticalmente */
-    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .menu-toggle .bar {
@@ -381,96 +326,53 @@ section.ondas-box {
     transition: 0.3s;
 }
 
-/* Estilos para a sobreposição */
 .overlay {
-    display: none; /* Esconde a sobreposição por padrão */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(80, 162, 255); /* Cor azul com transparência */
-    z-index: 999; /* Fica atrás do menu, mas à frente do conteúdo */
+    background-color: rgba(80, 162, 255);
+    z-index: 999;
 }
 
-/* Exibir o botão de hambúrguer e a sobreposição em telas pequenas */
 @media screen and (max-width: 768px) {
     .header nav ul {
-        display: none; /* Esconde o menu na visualização mobile */
+        display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px; /* Ajuste conforme necessário */
+        top: 60px;
         right: 0;
         background-color: rgb(80, 162, 255);
         width: 100%;
     }
 
     .header nav ul.active {
-        display: flex; /* Mostra o menu quando o botão de hambúrguer é clicado */
+        display: flex;
     }
 
     .menu-toggle {
-        display: flex; /* Mostra o botão de hambúrguer */
+        display: flex;
     }
 
     .overlay.active {
-        display: block; /* Mostra a sobreposição quando o menu está ativo */
+        display: block;
     }
 
-
-    /* Medias adicionados: */
-
-    
-
-/* Mídia query para telas com largura máxima de 768px */
-@media screen and (max-width: 768px) {
-    .onda {
-        background-size: 1500px 300px; /* Aumenta o tamanho da imagem das ondas */
+    @media screen and (max-width: 768px) {
+        .onda {
+            background-size: 1500px 300px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
     }
-    h1{
-        font-size: 2em;
-        margin-bottom: 20px;
-    }
-}
-       /* Mídia query para telas com largura máxima de 768px */
-@media screen and (max-width: 768px) {
-    .conteudo p {
-        font-size: 1.1em; /* Aumenta o tamanho da fonte dos parágrafos */
+
+    @media screen and (max-width: 768px) {
+        .conteudo p {
+            font-size: 1.1em;
+        }
     }
 }
-
-
-}
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
