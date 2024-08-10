@@ -18,7 +18,7 @@ window.addEventListener('scroll', function(){
         colheitadeira.style.left = 50 + rolagemPos * 2 + 'px';
     });
 
-// Responsividade: 
+
 document.getElementById('menu-toggle').addEventListener('click', function() {
     const menu = document.querySelector('nav ul');
     const overlay = document.getElementById('overlay');
@@ -26,7 +26,7 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
     overlay.classList.toggle('active');
 });s
 
-// Fechar o menu e a sobreposição quando a sobreposição for clicada
+
 document.getElementById('overlay').addEventListener('click', function() {
     const menu = document.querySelector('nav ul');
     const overlay = document.getElementById('overlay');
