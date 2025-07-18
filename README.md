@@ -1,4 +1,3 @@
-
 # AgroInova 
 
 <p align="center">
@@ -8,7 +7,7 @@
 ## Concurso Agrinho 2024
 **Tema: Do campo à cidade colhendo oportunidades**
 
-
+**Resultado:** 6º lugar no Estado do Paraná
 
 ## TEMA – AGRINHO: DO CAMPO À CIDADE, COLHENDO OPORTUNIDADES
 
@@ -22,7 +21,7 @@
 
 ### Descrição:
 
-AgroInova é um site desenvolvido para o concurso Agrinho 2024, que explora a integração entre o campo e a cidade, destacando oportunidades através da sustentabilidade e inovação tecnológica.
+AgroInova é um site desenvolvido para o concurso Agrinho 2024, que explora a integração entre o campo e a cidade, destacando oportunidades através da sustentabilidade e inovação tecnológica. O projeto foi premiado com o 6º lugar no Estado do Paraná.
 
 ### Funcionalidades
 
@@ -66,7 +65,7 @@ A motivação para este projeto é a crescente necessidade de integrar práticas
 
 ### Considerações Finais
 
-Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-relação entre campo e cidade, destacando as oportunidades de um futuro sustentável e inovador.
+O AgroInova foi premiado com o 6º lugar no Estado do Paraná no concurso Agrinho 2024, comprovando que o projeto trouxe uma nova perspectiva sobre a inter-relação entre campo e cidade, destacando as oportunidades de um futuro sustentável e inovador.
 
 ### Créditos
 
@@ -79,4 +78,3 @@ Estou confiante de que o AgroInova trará uma nova perspectiva sobre a inter-rel
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1lyfFoRlHmKUZCV7HcdfzuRbrwOec_po_" alt="Colheitadeira com uma faixada escrita Agrinho "  width="600"/>
 </p>
-
